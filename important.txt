@@ -1,0 +1,10 @@
+ssh root@113.45.177.214
+
+docker pull image_name:tag
+
+docker run -it -d -p 8050-8060:8050-8060 --name zabc ubuntu:18.04
+
+docker exec -it zabc bash
+
+conda create --name zabc python=3.11
+conda activate zabc
